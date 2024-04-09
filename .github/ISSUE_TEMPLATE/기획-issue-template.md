@@ -1,6 +1,6 @@
 ---
-name: 기획서 ISSUE TEMPLATE
-about: 포스팅 이전 기획서 ISSUE 작성간 사용 템플릿입니다.
+name: 기획 ISSUE TEMPLATE
+about: 포스팅 이전 기획 ISSUE 작성간 사용 템플릿입니다.
 title: "[기획] 포스팅 제목 "
 labels: "\U0001F4A1 기획"
 assignees: ''
