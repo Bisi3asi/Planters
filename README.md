@@ -35,6 +35,13 @@
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore-start -->
 <!-- markdownlint-disable -->
+<table>
+  <tbody>
+    <tr>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/Bisi3asi"><img src="https://avatars.githubusercontent.com/u/60452780?v=4?s=100" width="100px;" alt="Bi3a"/><br /><sub><b>Bi3a</b></sub></a><br /><a href="#blog-Bisi3asi" title="Blogposts">📝</a></td>
+    </tr>
+  </tbody>
+</table>
 
 <!-- markdownlint-restore -->
 <!-- prettier-ignore-end -->
