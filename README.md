@@ -48,3 +48,10 @@
 <!-- prettier-ignore-end -->
 
 <!-- ALL-CONTRIBUTORS-LIST:END -->
+
+## 기여하기
+`🌱Planters` 는 모든 지식공유자의 기여를 기다리고 있습니다.    
+저희와 함께 지식을 `🌱Plant` 하세요!    
+    
+`Contributor 등록 방법` : [Planters Discussion 참고](https://github.com/Bisi3asi/Planters/discussions/2)    
+`Contributor 등록 신청` : [Planters Contribution 등록](https://github.com/Bisi3asi/Planters/discussions/categories/contributor-%EB%93%B1%EB%A1%9D)
