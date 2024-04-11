@@ -10,11 +10,6 @@
 ![GitHub watchers](https://img.shields.io/github/watchers/Bisi3asi/Planters)
 ![GitHub forks](https://img.shields.io/github/forks/Bisi3asi/Planters)
 
-
-
-
-
-
 <br>
 
 ## 🌱 Planters : 오픈소스 CS, 코딩테스트 지식 저장소 
@@ -72,9 +67,8 @@
 
 ## To Become Contributors
 `🌱Planters` 는 모든 지식공유자의 기여를 기다리고 있습니다.    
-저희와 함께 지식을 `🌱Plant` 하세요!
-
-* 별도 Contributor 등록 없이 PR이 가능합니다.
+저희와 함께 잔디도 심고 지식을 `🌱Plant` 하세요!
     
 `Contributor 등록 방법` : [Planters Discussion 참고](https://github.com/Bisi3asi/Planters/discussions/2)    
 `Contributor 등록 신청` : [Planters Contribution 등록](https://github.com/Bisi3asi/Planters/discussions/categories/contributor-%EB%93%B1%EB%A1%9D)
+* Planters는 별도 Contributor 등록 없이도 PR이 가능합니다.
