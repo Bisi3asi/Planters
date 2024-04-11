@@ -1,0 +1,39 @@
+{
+  "projectName": "Planters",
+  "projectOwner": "Bisi3asi",
+  "files": [
+    "README.md"
+  ],
+  "commitType": "docs",
+  "commitConvention": "angular",
+  "contributorsPerLine": 7,
+  "contributors": [
+    {
+      "login": "Bisi3asi",
+      "name": "Bi3a",
+      "avatar_url": "https://avatars.githubusercontent.com/u/60452780?v=4",
+      "profile": "https://github.com/Bisi3asi",
+      "contributions": [
+        "blog"
+      ]
+    },
+    {
+      "login": "ppusda",
+      "name": "ppusda",
+      "avatar_url": "https://avatars.githubusercontent.com/u/51808344?v=4",
+      "profile": "https://github.com/ppusda",
+      "contributions": [
+        "blog"
+      ]
+    },
+    {
+      "login": "hagd0520",
+      "name": "hagd0520",
+      "avatar_url": "https://avatars.githubusercontent.com/u/146146134?v=4",
+      "profile": "https://github.com/hagd0520",
+      "contributions": [
+        "blog"
+      ]
+    }
+  ]
+}
