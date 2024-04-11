@@ -1,6 +1,23 @@
-<img src="https://capsule-render.vercel.app/api?type=rounded&color=DBE9C8&height=300&section=header&text=🌱Planters&desc=Plant%20knowledge%20Together!&descAlign=55&descAlignY=70&fontSize=90" />
-    
-## 🌱 Planters : 오픈소스 CS, 코딩테스트 지식 저장소
+<img src="https://capsule-render.vercel.app/api?type=rounded&color=DBE9C8&height=200&section=header&text=🌱Planters&desc=Plant%20knowledge%20Together!&descAlign=55&descAlignY=70&fontSize=90" />
+
+![Static Badge](https://img.shields.io/badge/%F0%9F%8C%B1Planted%20Since-2024.04.09-brightgreen)
+![Static Badge](https://img.shields.io/badge/Pull%20Requests-Welcome%E2%9D%A4%EF%B8%8F-pink)
+[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FBisi3asi%2FPlanters&count_bg=%2379C83D&title_bg=%23787878&icon=&icon_color=%23E7E7E7&title=Views+%28Today%2C+Total%29&edge_flat=false)](https://hits.seeyoufarm.com)
+![Total Commits](https://img.shields.io/github/commit-activity/t/Bisi3asi/Planters?style=flat&label=Total%20Commits&labelColor=23E7E7E7)
+![Contributors](https://img.shields.io/github/all-contributors/Bisi3asi/Planters?label=Contributors)    
+
+![GitHub Repo stars](https://img.shields.io/github/stars/Bisi3asi/Planters)
+![GitHub watchers](https://img.shields.io/github/watchers/Bisi3asi/Planters)
+![GitHub forks](https://img.shields.io/github/forks/Bisi3asi/Planters)
+
+
+
+
+
+
+<br>
+
+## 🌱 Planters : 오픈소스 CS, 코딩테스트 지식 저장소 
 ![node.js](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)
 ![js](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=JavaScript&logoColor=white)
 ![c#](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white)
@@ -29,6 +46,8 @@
 ![oracle](https://img.shields.io/badge/Oracle-F80000?style=for-the-badge&logo=Oracle&logoColor=white)
 ![rabbitmq](https://img.shields.io/badge/rabbitmq-%23FF6600.svg?&style=for-the-badge&logo=rabbitmq&logoColor=white)
 ![mariaDB](https://img.shields.io/badge/MariaDB-003545?style=for-the-badge&logo=mariadb&logoColor=white)
+
+<br>
     
 ## 👍 Contributors
 
@@ -49,9 +68,13 @@
 
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
-## 기여하기
+<br>
+
+## To Become Contributors
 `🌱Planters` 는 모든 지식공유자의 기여를 기다리고 있습니다.    
-저희와 함께 지식을 `🌱Plant` 하세요!    
+저희와 함께 지식을 `🌱Plant` 하세요!
+
+* 별도 Contributor 등록 없이 PR이 가능합니다.
     
 `Contributor 등록 방법` : [Planters Discussion 참고](https://github.com/Bisi3asi/Planters/discussions/2)    
 `Contributor 등록 신청` : [Planters Contribution 등록](https://github.com/Bisi3asi/Planters/discussions/categories/contributor-%EB%93%B1%EB%A1%9D)
