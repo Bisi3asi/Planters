@@ -39,6 +39,7 @@
   <tbody>
     <tr>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/Bisi3asi"><img src="https://avatars.githubusercontent.com/u/60452780?v=4?s=100" width="100px;" alt="Bi3a"/><br /><sub><b>Bi3a</b></sub></a><br /><a href="#blog-Bisi3asi" title="Blogposts">📝</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/ppusda"><img src="https://avatars.githubusercontent.com/u/51808344?v=4?s=100" width="100px;" alt="ppusda"/><br /><sub><b>ppusda</b></sub></a><br /><a href="#blog-ppusda" title="Blogposts">📝</a></td>
     </tr>
   </tbody>
 </table>
