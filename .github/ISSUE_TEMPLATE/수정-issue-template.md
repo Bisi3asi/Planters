@@ -1,6 +1,6 @@
 ---
 name: 수정 ISSUE TEMPLATE
-about: 포스팅 관련 수정(요청) ISSUE 작성 간 사용 템플릿입니다.
+about: 글 관련 수정(요청) ISSUE 작성 간 사용 템플릿입니다.
 title: "[수정] '포스팅 제목' 수정 요청"
 labels: "\U0001F4A1 수정"
 assignees: ''
