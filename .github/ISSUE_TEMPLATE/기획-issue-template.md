@@ -1,8 +1,8 @@
 ---
-name: 기획 ISSUE TEMPLATE
-about: 글 작성 이전 기획 ISSUE 작성 간 사용 템플릿입니다.
-title: "[기획] '글 제목' "
-labels: "\U0001F4A1 수정"
+name: 작성 ISSUE TEMPLATE
+about: 글 포스팅 이전 기획서 작성 간 사용 템플릿입니다.
+title: "[작성] '글 제목' "
+labels: "\U0001F4A1 작성"
 assignees: ''
 
 ---
