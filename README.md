@@ -55,6 +55,7 @@
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/Bisi3asi"><img src="https://avatars.githubusercontent.com/u/60452780?v=4?s=100" width="100px;" alt="Bi3a"/><br /><sub><b>Bi3a</b></sub></a><br /><a href="#blog-Bisi3asi" title="Blogposts">📝</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/ppusda"><img src="https://avatars.githubusercontent.com/u/51808344?v=4?s=100" width="100px;" alt="ppusda"/><br /><sub><b>ppusda</b></sub></a><br /><a href="#blog-ppusda" title="Blogposts">📝</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/hagd0520"><img src="https://avatars.githubusercontent.com/u/146146134?v=4?s=100" width="100px;" alt="hagd0520"/><br /><sub><b>hagd0520</b></sub></a><br /><a href="#blog-hagd0520" title="Blogposts">📝</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/itonse"><img src="https://avatars.githubusercontent.com/u/76129297?v=4?s=100" width="100px;" alt="Jieun Hong"/><br /><sub><b>Jieun Hong</b></sub></a><br /><a href="#blog-itonse" title="Blogposts">📝</a></td>
     </tr>
   </tbody>
 </table>
