@@ -253,7 +253,7 @@
     ```
    
     **[실행 결과]**
-   ![1](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FLESLG%2FbtsGFDWxkWU%2F97rfKvnm3O5rX8kgNfzufk%2Fimg.png)
+    ![1](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FLESLG%2FbtsGFDWxkWU%2F97rfKvnm3O5rX8kgNfzufk%2Fimg.png)
 
 <br>
 
