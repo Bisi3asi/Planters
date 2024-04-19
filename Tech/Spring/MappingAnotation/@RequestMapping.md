@@ -16,7 +16,7 @@ DispatcherServlet이 Controller 파일을 찾고, 논리적 주소가 매핑된 
 이 두 가지 속성을 종합해보면
 
 ```java 
-@RequestMapping(value = "/eample", method = RequestMethod.POST)
+@RequestMapping(value = "/example", method = RequestMethod.POST)
 ```
 이런 형태로 사용된다.
 
@@ -68,31 +68,31 @@ EX1에서 다룬 코드에서 @RequestMapping를 기술하다보면 반복되는
 public class ExampleController{
 	
     // GET
-    @Mapping(value = "/exampleGet")
+    @GetMapping(value = "/exampleGet")
     public String ExampleGet(...){
     	...
     }
     
     // POST
-    @Mapping(value = "/examplePost")
+    @PostMapping(value = "/examplePost")
     public String ExamplePost(...){
     	...
     }
     
     // PUT
-    @Mapping(value = "/examplePut")
+    @PutMapping(value = "/examplePut")
     public String ExamplePut(...){
     	...
     }
     
     // DELETE
-    @Mapping(value = "/exampleDelete")
+    @DeleteMapping(value = "/exampleDelete")
     public String ExampleDelete(...){
     	...
     }
     
     // PATCH
-    @Mapping(value = "/examplePatch")
+    @PatchMapping(value = "/examplePatch")
     public String ExamplePatch(...){
     	...
     }
@@ -183,7 +183,7 @@ public class ExampleController{
 ```
 
 ### 로컬 환경에서?
-Ex4를 가지고 로컬 환경에서 작업할 경우, GET 방식으로 "localhost:8080/api/exampleGet" 이라는 요청을 보내올 경우 xampleGet 메서드가 호출된다.
+Ex4를 가지고 로컬 환경에서 작업할 경우, GET 방식으로 "localhost:8080/api/exampleGet" 이라는 요청을 보내올 경우 exampleGet 메서드가 호출된다.
 
 이때 인텔리제이의 경우 로컬 주소를 resources 패키지에서 application.yml 파일이나 application.properties 파일 같은 설정 파일에서 변경할 수 있다. (설정 파일에 관해서는 이 링크를 참고하길.. https://velog.io/@chrios99/%EC%8A%A4%ED%94%84%EB%A7%81-%EB%B6%80%ED%8A%B8-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%EC%9D%98-%EC%84%A4%EC%A0%95-%ED%8C%8C%EC%9D%BC-%ED%98%95%EC%8B%9D-2%EA%B0%80%EC%A7%80)
 
