@@ -58,6 +58,7 @@
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/itonse"><img src="https://avatars.githubusercontent.com/u/76129297?v=4?s=100" width="100px;" alt="Jieun Hong"/><br /><sub><b>Jieun Hong</b></sub></a><br /><a href="#blog-itonse" title="Blogposts">📝</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/jae9380"><img src="https://avatars.githubusercontent.com/u/145907325?v=4?s=100" width="100px;" alt="jae9380"/><br /><sub><b>jae9380</b></sub></a><br /><a href="#blog-jae9380" title="Blogposts">📝</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/sleo113"><img src="https://avatars.githubusercontent.com/u/77144006?v=4?s=100" width="100px;" alt="JeUk Park"/><br /><sub><b>JeUk Park</b></sub></a><br /><a href="#blog-sleo113" title="Blogposts">📝</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/leeyujin0000"><img src="https://avatars.githubusercontent.com/u/106787560?v=4?s=100" width="100px;" alt="leeyujin"/><br /><sub><b>leeyujin</b></sub></a><br /><a href="#blog-leeyujin0000" title="Blogposts">📝</a></td>
     </tr>
   </tbody>
 </table>
