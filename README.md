@@ -60,6 +60,9 @@
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/sleo113"><img src="https://avatars.githubusercontent.com/u/77144006?v=4?s=100" width="100px;" alt="JeUk Park"/><br /><sub><b>JeUk Park</b></sub></a><br /><a href="#blog-sleo113" title="Blogposts">📝</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/leeyujin0000"><img src="https://avatars.githubusercontent.com/u/106787560?v=4?s=100" width="100px;" alt="leeyujin"/><br /><sub><b>leeyujin</b></sub></a><br /><a href="#blog-leeyujin0000" title="Blogposts">📝</a></td>
     </tr>
+    <tr>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/i-am-jiwon"><img src="https://avatars.githubusercontent.com/u/141749436?v=4?s=100" width="100px;" alt="임지원"/><br /><sub><b>임지원</b></sub></a><br /><a href="#blog-i-am-jiwon" title="Blogposts">📝</a></td>
+    </tr>
   </tbody>
 </table>
 
