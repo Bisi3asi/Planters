@@ -104,8 +104,9 @@ value 속성은 트랜잭션 매니저를 설정할 때 사용된다.
   `PlatformTransactionManager` 라는 트랜잭션 추상화 인터페이스를 제공하여 다양한 플랫폼 (JDBC, JPA, Hibernate 등) 에 대한 트랜잭션의 동작(begin, commit, rollback)을 제어하고 트랜잭션의 상태를 추적한다.
 
   즉, @Transactional을 사용하게 되면 아래와 같이 동작하게 된다.
-
-  ![](https://i.imgur.com/WK4LK41.png)
+  
+  초록색은 요청 시 트랜잭션 생성부터 구현 객체의 DB 처리까지의 순서이며, 주황색은 DB 작업이 끝난 후 트랜잭션을 완료하기 위한 순서이다.
+  ![](https://i.imgur.com/Syfoc5U.png)
 
   프록시 객체에서 트랜잭션은 트랜잭션 매니저에 의해 관리된다.
 
@@ -488,7 +489,7 @@ public void some() {
 
 `READ_COMMITTED`는 가장 많이 사용되는 격리 수준으로 다른 트랜잭션에서 아직 처리 중인 데이터, 커밋 되지 않은 데이터에 대한 읽기를 허용하지 않는다.
 
-Postgres, Oracle, SQL Server DB의 기본 격리 수준으로 설정되어 있다.
+Postgre, Oracle, SQL Server DB의 기본 격리 수준으로 설정되어 있다.
 
 이 옵션은 `Dirty Read` 문제를 방지할 수 있으나 작업 중인 데이터를 수정하거나 새로운 데이터를 추가하는 것을 막지 않으므로 `Non-Repeatable Read`, `Phantom Read`가 발생할 수 있다.
 
@@ -846,6 +847,8 @@ public void some() {
 추가로 글을 정리하다가 읽어보면 좋을 것 같은 글을 찾게되어 공유한다.
 
 [@Transactional의 해로움 (channel.io)](https://channel.io/ko/blog/bad-transactional)
+
+[JPA에서의 낙관적 락](https://www.baeldung.com/jpa-optimistic-locking)
 
 ## 참고
 
