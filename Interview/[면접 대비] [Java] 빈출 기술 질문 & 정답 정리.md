@@ -51,7 +51,7 @@
 
 <br>
 
-* Runtime Data Area는 Method, Stack, Heap, PC register, Native Method Stack 총 5개의 Area로 구성된다.
+* **Runtime Data Area는 Method, Stack, Heap, PC register, Native Method Stack 총 5개의 Area로 구성된다.**
   * Method Area : 모든 쓰레드가 공유하는 메모리 영역
     * Class, Interface, Method, Field, Static 변수 등의 바이트 코드를 보관한다.
   * Heap Area : new 키워드로 생성된 객체와 배열이 생성되는 영역
@@ -109,7 +109,7 @@
 
 <br>
 
-* static 은 정적, 공통의 의미로서, JVM에서 클래스 로더가 메소드 메모리 영역에 적재하는 멤버이다.
+* **static 은 정적, 공통의 의미로서, JVM에서 클래스 로더가 메소드 메모리 영역에 적재하는 멤버이다.**
 * static 을 통해 생성된 정적 멤버는 클래스 별로 관리가 된다.
 * static 을 통해 생성된 정적 멤버는 모든 객체가 공유하며 하나의 멤버를 어디서든지 참조할 수 있다.
 * 그러나, 메소드 메모리 영역에 존재하는 static 멤버는 GC의 관리 영역 밖에 있으므로 프로그램 종료 시 까지 메모리가 할당된 채로 존재한다.
@@ -365,15 +365,15 @@
 <br>
 
 * **SOLID 원칙은 객체 지향을 추구하기 위한 설계 원칙이다.**
-  * Single Responsibility Principle (단일 책임 원칙) : 하나의 클래스는 하나의 목적과 책임을 가지고 있어야 한다는 원칙
+  * `S`ingle Responsibility Principle (단일 책임 원칙) : 하나의 클래스는 하나의 목적과 책임을 가지고 있어야 한다는 원칙
     * 다른 4원칙의 기초 원칙
-  * Open Close Principle (개방-폐쇄 원칙) : 소프트웨어의 구성요소는 확장에는 열려있고 변경에는 닫혀있어야 한다는 원칙
+  * `O`pen Close Principle (개방-폐쇄 원칙) : 소프트웨어의 구성요소는 확장에는 열려있고 변경에는 닫혀있어야 한다는 원칙
     * 해석 : 변경될 것은 계속 변경되게 두고, 변경되지 않아야 할 것은 닫혀있게끔 해야한다는 원칙
-  * Liskov Substitution Principle (리스코프 치환 원칙) : 하위 클래스는 언제나 자신의 상위 클래스로 교체할 수 있어야 한다는 원칙
+  * `L`iskov Substitution Principle (리스코프 치환 원칙) : 하위 클래스는 언제나 자신의 상위 클래스로 교체할 수 있어야 한다는 원칙
     * 해석 : 즉, 상속되는 객체는 부모 객체를 완전히 대체해도 아무런 문제가 없도록 설계해야 한다는 것
-  * Interface Segregation Principle (인터페이스 분리 원칙) : 자신이 사용하지 않는 인터페이스는 만들지도 말아야 한다는 원칙
+  * `I`nterface Segregation Principle (인터페이스 분리 원칙) : 자신이 사용하지 않는 인터페이스는 만들지도 말아야 한다는 원칙
     * 해석 : 즉, 클라이언트들이 꼭 필요한 메서드와 인터페이스만 이용할 수 있게 불필요한 인터페이스는 설계하지 말아야 한다는 것
-  * Dependency Inversion Principle (의존성 치환 원칙) : 추상을 매개로 관계를 최대한 느슨하게 만들어야 한다는 것
+  * `D`ependency Inversion Principle (의존성 치환 원칙) : 추상을 매개로 관계를 최대한 느슨하게 만들어야 한다는 것
     * 해석 : 즉, 변경이 없는 것(유사 불변)의 속성에 대해서 관계를 맺어야 변경이 적다는 것
 
 <br>
@@ -383,7 +383,7 @@
 <br>
 
 <details>
-<summary><strong>Q.직렬화와 역직렬화에 대해 설명해주세요. </strong></summary>
+<summary><strong>Q. 직렬화와 역직렬화에 대해 설명해주세요. </strong></summary>
 
 <br>
 
