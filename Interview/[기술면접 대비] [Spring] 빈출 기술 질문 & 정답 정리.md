@@ -10,6 +10,43 @@
 <br>
 
 <details>
+<summary><strong>Q. Spring과 Spring Boot, Spring MVC의 차이점에 대해 설명해주세요.</strong></summary>
+
+<br>
+
+* **Spring은 Java 기반 애플리케이션 개발을 지원하는 오픈소스 프레임워크이다.**
+  * POJO만을 이용해 복잡성을 제거하고, 가벼운 코드로 기업용 애플리케이션을 제작하는 기능을 제공하는데 그 목적이 있다.
+  * Spring에서는 개발자가 직접 스프링 컨테이너 구성, 빈 객체 등록, 의존성을 설정해야 하는 번거로움이 있다.
+  
+<br>
+
+* **반면, Spring Boot는 기존 Spring에서 보일러 플레이트 코드를 최소화하고 자동 구성을 통해 빠르게 애플리케이션 개발에 착수할 수 있도록 하는 Spring 프레임워크의 종류이다.**
+  * Spring과의 차이점
+    * 자동 의존성 주입과 빈 객체 등록, 스프링 컨테이너 구성이 가능하다.
+    * Tomcat과 같은 임베디드 서버를 제공해 jar 파일로 엑스포트가 가능하다.
+    * Spring MVC, Spring Data JPA, Spring Security 등 다른 Spring Framework 모듈에 대해 선택적으로 자동 설정이 가능하다.   
+
+<br>
+
+* Spring MVC는 웹 애플리케이션 기반 개발에 있어 MVC 패턴 관련 설정을 제공하는 Spring 프레임워크의 종류이다.
+  * DispatcherServlet, ViewResolver, ModelAndView 등의 기능을 제공한다.
+
+<br>
+
+> 참고 : Spring 공식 사이트는 Spring Boot와 Spring MVC 또한 프레임워크로 규정하고 있다. <br>
+> `프레임워크 내부의 프레임워크로 이해하면 편할 것 같다..`
+
+<br>
+
+# [REFERENCE, Spring vs Spring Boot vs Spring MVC](https://velog.io/@lucaschoi/Spring-vs-Spring-boot-vs-Spring-MVC)
+
+<br>
+
+</details>
+
+<br>
+
+<details>
 <summary><strong>Q. Spring IOC에 대해 설명해주세요.</strong></summary>
 
 <br>
