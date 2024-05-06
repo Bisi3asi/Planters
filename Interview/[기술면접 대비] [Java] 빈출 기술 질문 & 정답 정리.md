@@ -469,6 +469,8 @@ Java 8 위주로 보시는 것을 추천드립니다.
 <details>
 <summary><strong>Q. Java 8에서 추가된 기능에 대해 설명해주세요. </strong></summary>
 
+<br>
+
 * **Null-Safety를 위한 Optional이 추가되었습니다.**
 * **함수형 인터페이스를 통해 간결한 코드 작성이 가능한 Lamda와 스트림이 추가되었습니다.**
 * 날짜 관련 클래스들이 추가되었습니다.
@@ -481,6 +483,8 @@ Java 8 위주로 보시는 것을 추천드립니다.
 <details>
 <summary><strong>Q. Java 12에서 추가된 기능에 대해 설명해주세요. </strong></summary>
 
+<br>
+
 * **Switch 람다가 추가되어 Switch 구문의 작성이 간결해졌습니다.**
 
 </details>
@@ -489,6 +493,8 @@ Java 8 위주로 보시는 것을 추천드립니다.
 
 <details>
 <summary><strong>Q. Java 16에서 추가된 기능에 대해 설명해주세요. </strong></summary>
+
+<br>
 
 * **불변 객체 생성을 통해 DTO를 편리하게 작성할 수 있는 Record 클래스가 추가되었습니다.**
 
@@ -499,7 +505,9 @@ Java 8 위주로 보시는 것을 추천드립니다.
 <details>
 <summary><strong>Q. Java 17에서 추가된 기능에 대해 설명해주세요. </strong></summary>
 
-* **Switch 구문에 객체를 넣어 기능을 전환하고 유형을 확인할 수 있습니다. **
+<br>
+
+* **Switch 구문에 객체를 넣어 기능을 전환하고 유형을 확인할 수 있습니다.**
 
 </details>
 
