@@ -314,7 +314,7 @@
 <br>
 
 * **Spring Bean의 스코프는 Bean이 존재할 수 있는 생명주기이자 범위를 뜻한다.**
-* 종류로는 Singleton, Application, Prototype, Web(Session, Request, Application)이 있다.
+* **종류로는 Singleton, Application, Prototype, Web(Session, Request, Application)이 있다.**
   * Singleton : 기본 스코프로서 스프링 IOC 컨테이너(애플리케이션)의 시작과 종료까지 유지되는 가장 넓고, 포괄적인 범위의 스코프이다.
   * Prototype : Bean 생성과 DI 시점까지만 유지되는 스코프
     * 요청이 오면 항상 새로운 인스턴스를 생성하며 반환하고, 이후에 관리하지 않으므로 프로토타입을 받은 객체가 관리해야 한다.
