@@ -206,7 +206,7 @@
 
 <br>
 
-* **POJO는 Plain Old Java Code의 약자로, 외부 인터페이스나 API에 종속되지 않는 Java 순수 코드이다.**
+* **POJO는 Plain Old Java Object의 약자로, 외부 인터페이스나 API에 종속되지 않는 Java 순수 객체이다.**
   * POJO는 특정 환경에 종속되지 않기 때문에 유연하며, 단위 테스트가 용이하다.
 * **Spring Framework 입장에서 POJO는 비즈니스 로직과 도메인 단의 작업을 수행하는 대상이다.**
   * 이는 비즈니스 로직과 도메인이 POJO가 되게끔 구성해야 됨을 의미한다.
