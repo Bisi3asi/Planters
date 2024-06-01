@@ -6,11 +6,11 @@
 
 ```java
 @Configuration
-public class ItonseConfig {
-    private static final String address = "경기도 수원시";
-    
-    public ItonseConfig() {
-        this.address = "경기도 수원시";
+public class DatabaseConfig {
+    private static final String dbUrl = "jdbc:mysql://localhost:3306/dev_db";
+
+    public DatabaseConfig() {
+        this.dbUrl = "jdbc:mysql://localhost:3306/dev_db";
     }
 }
 ```
@@ -25,25 +25,29 @@ public class ItonseConfig {
 
 ### application-dev.yml
 ```java
-itonse:
-    address: '경기도 수원시'
+database:
+    url: 'jdbc:mysql://localhost:3306/dev_db'
 ```
 <br/>
 
 ### application-prod.yml
 ```java
-itonse:
-    address: '경기도 용인시'
+database:
+    url: 'jdbc:mysql://prod-db-server:3306/prod_db'
 ```
 <br/>
 
 위와 같이 환경 별로 다른 값들을 정의를 한 후, `@Value` 어노테이션을 사용하여 설정 값을 주입받는다.
 
 ```java
-@Conficuration
-public class ItonseConfig {
-    @Value("${itonse.address")
-    private String address;
+@Configuration
+public class DatabaseConfig {
+    @Value("${database.url}")
+    private String dbUrl;
+
+    public String getDbUrl() {
+        return dbUrl;
+    }
 }
 ```
 
