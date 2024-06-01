@@ -66,16 +66,16 @@ User user1 = new User("Kim", "01011112222", 30, 1225);
 
 ```java
 public class User {
-    private final String name;
-    private final String phoneNumber;
-    private int age;
-    private int birthday;
+    private final String name;          // 필수 
+    private final String phoneNumber;   // 필수
+    private final int age;             // 선택 
+    private final int birthday;        // 선택
     
     public static class Builder {
         private final String name;
         private final String phoneNumber;
-        private int age = 0;
-        private int birthday = 0;
+        private final int age = 0;
+        private final int birthday = 0;
         
         public Builder(String name, String phoneNumber) {
             this.name = name;
