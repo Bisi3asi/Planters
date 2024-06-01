@@ -5,11 +5,11 @@
 싱글턴이란 인스턴스를 오직 하나만 생성할 수 있는 클래스를 말한다.
 
 ### 싱글턴 패턴의 장점
-**메모리 낭비 방지**: 무분별한 new 연산을 하지 않으므로 메모리 낭비를 방지할 수 있다.<br/>
+**메모리 낭비 방지**: 무분별한 new 연산을 피하여 동일한 객체를 여러 번 생성하지 않으므로 메모리 낭비를 방지할 수 있다.<br/>
 
 **비용 절감**: 인스턴스 생성 비용이 큰 경우, 단 한 번만 생성하여 재사용할 수 있다.<br/>
 
-**데이터 공유**: 전역 접근을 통해 데이터 공유가 가능하다.<br/>
+**전역 접근**: 어디서든 동일한 인스턴스에 접근할 수 있다.<br/>
 
 <br/>
 
@@ -37,11 +37,15 @@
 
 ### 1. public static final 필드 방식
 
+- 클래스의 인스턴스를 `public static final` 필드로 선언한다.
+- 생성자는 `private`으로 선언하여 외부에서 인스턴스를 생성할 수 없도록 한다.
+
 ```java
 public class Elvis {
-    public static final Elvis INSTANCE = new Elvis();   << 해당 방식
+    public static final Elvis INSTANCE = new Elvis();   << 해당 방식 (클래스의 유일한 인스턴스를 생성하여 INSTANCE 필드에 저장)
+    // 생성자를 private으로 선언하여 외부에서 인스턴스를 생성할 수 없도록 한다.
     private Elvis() {
-        // private 생성자
+        ...
     }
 
     public void leaveTheBuilding() {
@@ -50,25 +54,29 @@ public class Elvis {
 }
 ```
 
-이 방법에서는 `public static final 필드`인 `INSTANCE`가 클래스 로딩 시 한 번만 초기화된다.<br/>
-그리고 클래스 외부에서 접근 가능한 생성자가 없기 때문에 싱글턴을 보장한다.
+이 방법에서는 `Elvis.INSTANCE`를 통해 클래스의 유일한 인스턴스에 접근할 수 있다.
 
 ### 장점
-**명확한 접근 방식**: `Elvis.INSTANCE`로 싱글턴 인스턴스에 접근할 수 있어 명확하다. <br/>
+**명확한 접근 방식**: `Elvis.INSTANCE`로 인스턴스에 접근할 수 있어 명확하다. <br/>
+
 **간결한 소스 코드**: 코드가 간결하고 이해하기 쉽다. <br/>
 
 <br/>
 
 ### 2. 정적 팩터리 메서드 방식
+- 클래스의 인스턴스를 `private static final` 필드로 선언한다.
+- `public static` 메서드를 통해 유일한 인스턴스를 반환한다.
+- 1번 방식과 동일하게 생성자는 private으로 선언하여 외부에서 인스턴스를 생성할 수 없도록 한다.
 
 ```java
 public class Elvis {
-    private static final Elvis INSTANCE = new Elvis();
+    private static final Elvis INSTANCE = new Elvis();   // 클래스의 유일한 인스턴스를 생성하여 INSTANCE 필드에 저장
+    // 생성자를 private으로 선언하여 외부에서 인스턴스를 생성할 수 없도록 한다.
     private Elvis() {
-        // private 생성자
+        ...
     }
 
-    public static Elvis getInstance() {
+    public static Elvis getInstance() {   << 해당 방식(정적 메서드를 통해 인스턴스를 반환)
         return INSTANCE;
     }
 
@@ -78,13 +86,11 @@ public class Elvis {
 }
 ```
 
-이 방법에서는 `Elvis.getInstance()` 메서드가 항상 동일한 `Elvis` 인스턴스를 반환하므로, 제2의 `Elvis` 인스턴스가 <br/>
-생성되지 않는다.<br/>
+이 방법에서는 `Elvis.getInstance()`를 통해 클래스의 유일한 인스턴스에 접근할 수 있다.
 
 ### 장점
 
-**유연성**: 클라이언트 코드의 변경 없이 동작 방식을 변경할 수 있습니다. 예를 들어, 싱글턴 구현 방식을 변경하거나<br/> 
-서브클래스를 반환하도록 수정할 수 있다.
+**유연성**: 마음이 바뀌면 API를 바꾸지 않고도 싱글턴이 아니게 변경할 수 있다.
 
 **제네릭 싱글턴 팩터리**: 정적 팩터리 메서드를 제네릭 싱글턴 팩터리로 만들 수 있다. <br/>
 
