@@ -243,3 +243,61 @@ public class DatabaseConfig {
 ```
 
 이 방식을 사용하면 코드의 유연성, 재사용성이 향상된다.
+
+<br/><br/>
+
+## 순수 자바에서 @Value 의 의존성 주입 기능 구현하기
+
+스프링에서는 `@Value`어노테이션을 통해 환경별로 다른 값들을 주입받는다. <br/>
+이와 유사한 방식으로 환경별 설정 값을 주입받는 방법을 순수 자바로 구현해보았다.
+
+<br/>
+
+### 1. Properties 파일 준비
+
+.Properties 파일: **key=value** 형식의 텍스트 파일
+
+dev.properties 파일<br/>
+`database.url=jdbc:mysql://localhost:3306/dev_db`
+
+prod.properties 파일<br/>
+`database.url=jdbc:mysql://prod-db-server:3306/prod_db`
+
+### 2. 환경 변수 로드 및 의존성 주입
+
+```java
+...
+import java.util.Properties; 
+
+public class DatabaseConfig {
+    private String dbUrl;
+
+    public DatabaseConfig(String env) {    << (핵심 부분)생성자에서 환경 변수를 받아 의존성 주입 ex) "dev" 주입
+        this.dbUrl = loadDatabaseUrl(env);   // 메서드 호출을 통해 "jdbc:mysql://localhost:3306/dev_db" 저장
+    }
+
+    private String loadDatabaseUrl(String env) { 
+        Properties properties = new Properties();
+        // 간단한 예시를 보이기 위해 아래 코드를 try-catch문으로 감싸는 것 생략
+        InputStream inputStream = getClass().getClassLoader().getResourceAsStream(propertiesFileName);
+        
+        properties.load(env + ".properties");    // dev.properties 파일 내용 로드
+        // "database.url" 키에 해당하는 값을 반환  ->  "jdbc:mysql://localhost:3306/dev_db"
+        return properties.getProperty("database.url");    
+    }
+
+    public String getDbUrl() {
+        return dbUrl;
+    }
+
+    public static void main(String[] args) {
+        // dev, prod 환경 설정 사용
+        DatabaseConfig devConfig = new DatabaseConfig("dev");
+        DatabaseConfig prodConfig = new DatabaseConfig("prod");
+        
+        // dev, prod DB url 출력
+        System.out.println("dev DB url: " + devConfig.getDbUrl());
+        System.out.println("prod DB url: " + prodConfig.getDbUrl());
+    }
+}
+```
