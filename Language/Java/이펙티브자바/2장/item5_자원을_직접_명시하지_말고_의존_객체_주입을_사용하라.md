@@ -229,6 +229,13 @@ database:
 <br/>
 
 위와 같이 환경 별로 다른 값들을 정의를 한 후, `@Value` 어노테이션을 사용하여 설정 값을 주입받는다.
+<br/>
+
++) `@Value` 어노테이션의 역할은 아래와 같다.
+1. 설정 파일(.yml 등)에서 값을 읽어오기
+2. 읽어온 값을 Bean의 필드에 주입
+
+<br/>
 
 ```java
 @Configuration
@@ -249,7 +256,7 @@ public class DatabaseConfig {
 ## 순수 자바에서 @Value 의 의존성 주입 기능 구현하기
 
 스프링에서는 `@Value`어노테이션을 통해 환경별로 다른 값들을 주입받는다. <br/>
-이와 유사한 방식으로 환경별 설정 값을 주입받는 방법을 순수 자바로 구현해보았다.
+이와 유사한 방식으로 설정 파일에서 값을 읽어와 환경별 설정 값을 주입받는 방법을 순수 자바로 구현해보았다.
 
 <br/>
 
@@ -272,13 +279,13 @@ import java.util.Properties;
 public class DatabaseConfig {
     private String dbUrl;
 
-    public DatabaseConfig(String env) {    << (핵심 부분)생성자에서 환경 변수를 받아 의존성 주입 ex) "dev" 주입
+    public DatabaseConfig(String env) {    << 생성자에서 환경 변수를 받아 의존성 주입 ex) "dev" 주입
         this.dbUrl = loadDatabaseUrl(env);   // 메서드 호출을 통해 "jdbc:mysql://localhost:3306/dev_db" 저장
     }
 
     private String loadDatabaseUrl(String env) { 
         Properties properties = new Properties();
-        // 간단한 예시를 보이기 위해 아래 코드를 try-catch문으로 감싸는 것 생략
+        // 설정 파일에서 값 읽어오기 (간단한 예시를 보이기 위해 아래 코드를 try-catch문으로 감싸는 것 생략)
         InputStream inputStream = getClass().getClassLoader().getResourceAsStream(propertiesFileName);
         
         properties.load(env + ".properties");    // dev.properties 파일 내용 로드
