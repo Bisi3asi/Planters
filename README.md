@@ -83,15 +83,16 @@
 
 ## ⭐Recent Topics & Posts
 * **`기술 면접 대비`**
-  * [라이브 코딩 면접 대비하기](./Interview/%5B면접%20대비%5D%20라이브%20코딩%20면접%20대비하기.md)
-  * [[Java] 기술 면접 대비 질문 & 정답 정리](./Interview/%5B기술면접%20대비%5D%20%5BJava%5D%20빈출%20기술%20질문%20&%20정답%20정리.md)
-  * [[Spring] 기술 면접 대비 질문 & 정답 정리](./Interview/%5B기술면접%20대비%5D%20%5BSpring%5D%20빈출%20기술%20질문%20&%20정답%20정리.md)
+  * [라이브 코딩 면접 대비하기](./Interview/라이브%20코딩%20면접%20대비하기.md)
+  * [[Java] 기술 면접 대비 질문 & 정답 정리](./Interview/%5BJava%5D%20빈출%20기술%20질문%20&%20정답%20정리.md)
+  * [[Spring] 기술 면접 대비 질문 & 정답 정리](./Interview/%5BSpring%5D%20빈출%20기술%20질문%20&%20정답%20정리.md)
 
 <br>
 
 * **`언어 / 프레임워크`**
   * [[Java] 이펙티브 자바로 알아보는 객체지향 설계 방법론](./Language/Java/이펙티브자바)
-  * [[Spring] @Transactional에 대해서](./Tech/Spring/Spring%20@Transactional에%20대해서.md)
+  * [[Spring] @Transactional에 대해서](./Tech/Spring/Annotation/@Transactional.md)
+  * [[Spring] @RequestMapping에 대해서](./Tech/Spring/Annotation/@RequestMapping.md)
 
 <br>
 
