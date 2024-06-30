@@ -2,7 +2,7 @@
 
 ![Static Badge](https://img.shields.io/badge/%F0%9F%8C%B1Planted%20Since-2024.04.09-brightgreen)
 ![Static Badge](https://img.shields.io/badge/Pull%20Requests-Welcome%E2%9D%A4%EF%B8%8F-pink)
-[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FBisi3asi%2FPlanters&count_bg=%2379C83D&title_bg=%23787878&icon=&icon_color=%23E7E7E7&title=Views+%28Today%2C+Total%29&edge_flat=false)](https://hits.seeyoufarm.com)
+[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FBisi3asi%2FPlanters&count_bg=%2379C83D&title_bg=%23787878&icon=&icon_color=%23E7E7E7&title=Views+%28Today%2C+Total%29&edge_flat=false)](https://github.com/Bisi3asi/Planters)
 ![Total Commits](https://img.shields.io/github/commit-activity/t/Bisi3asi/Planters?style=flat&label=Total%20Commits&labelColor=23E7E7E7)
 ![Contributors](https://img.shields.io/github/all-contributors/Bisi3asi/Planters?label=Contributors)    
 
@@ -15,7 +15,7 @@
 ## 🌱 Planters : 오픈소스 CS, 코딩테스트 지식 저장소 
 ![node.js](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)
 ![js](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=JavaScript&logoColor=white)
-![c#](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white)
+![c](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)
 ![git](https://img.shields.io/badge/GIT-E44C30?style=for-the-badge&logo=git&logoColor=white)
 ![java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
 ![python](https://img.shields.io/badge/Python-14354C?style=for-the-badge&logo=python&logoColor=white)
@@ -26,21 +26,29 @@
 ![vue](https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vue.js&logoColor=4FC08D)
 ![spring](https://img.shields.io/badge/Spring-6DB33F?style=for-the-badge&logo=spring&logoColor=white)
 ![mysql](https://img.shields.io/badge/MySQL-00000F?style=for-the-badge&logo=mysql&logoColor=white)
+![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)
 ![aws](https://img.shields.io/badge/Amazon_AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white)
-![githubactions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white)
-![google Cloud](https://img.shields.io/badge/Google_Cloud-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white)
+![githubActions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white)
 ![hibernate](https://img.shields.io/badge/Hibernate-59666C?style=for-the-badge&logo=Hibernate&logoColor=white)
+![googleCloud](https://img.shields.io/badge/Google_Cloud-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white)
 ![dart](https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white)
 ![markdown](https://img.shields.io/badge/Markdown-000000?style=for-the-badge&logo=markdown&logoColor=white)
 ![react](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 ![flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)
-![react native](https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![reactNative](https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 ![svelte](https://img.shields.io/badge/Svelte-4A4A55?style=for-the-badge&logo=svelte&logoColor=FF3E00)
 ![redis](https://img.shields.io/badge/redis-%23DD0031.svg?&style=for-the-badge&logo=redis&logoColor=white)
-![postgresql](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
+![c++](https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)
+![postgreSql](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
 ![oracle](https://img.shields.io/badge/Oracle-F80000?style=for-the-badge&logo=Oracle&logoColor=white)
 ![rabbitmq](https://img.shields.io/badge/rabbitmq-%23FF6600.svg?&style=for-the-badge&logo=rabbitmq&logoColor=white)
-![mariaDB](https://img.shields.io/badge/MariaDB-003545?style=for-the-badge&logo=mariadb&logoColor=white)
+![ruby](https://img.shields.io/badge/Ruby-CC342D?style=for-the-badge&logo=ruby&logoColor=white)
+![shellScript](https://img.shields.io/badge/Shell_Script-121011?style=for-the-badge&logo=gnu-bash&logoColor=white)
+![msSQL](https://img.shields.io/badge/Microsoft_SQL_Server-CC2927?style=for-the-badge&logo=microsoft-sql-server&logoColor=white)
+![jQuery](https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white)
+![flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)
+![perl](https://img.shields.io/badge/Perl-39457E?style=for-the-badge&logo=perl&logoColor=white)
+![mongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)
 
 <br>
     
@@ -73,8 +81,33 @@
 
 <br>
 
+## ⭐Recent Topics & Posts
+* **`기술 면접 대비`**
+  * [라이브 코딩 면접 대비하기](./Interview/라이브%20코딩%20면접%20대비하기.md)
+  * [[Java] 기술 면접 대비 질문 & 정답 정리](./Interview/%5BJava%5D%20빈출%20기술%20질문%20&%20정답%20정리.md)
+  * [[Spring] 기술 면접 대비 질문 & 정답 정리](./Interview/%5BSpring%5D%20빈출%20기술%20질문%20&%20정답%20정리.md)
+
+<br>
+
+* **`언어 / 프레임워크`**
+  * [[Java] 이펙티브 자바로 알아보는 객체지향 설계 방법론](./Language/Java/이펙티브자바)
+  * [[Spring] @Transactional에 대해서](./Tech/Spring/Annotation/@Transactional.md)
+  * [[Spring] @RequestMapping에 대해서](./Tech/Spring/Annotation/@RequestMapping.md)
+
+<br>
+
+* **`알고리즘 / 코딩테스트`**
+  * [[알고리즘] 퀵 정렬](./Coding%20Test/Algorithm/퀵%20정렬%20이해하기.md)
+
+<br>
+
+* **`CS / 개발 방법론`**
+  * [[디자인 패턴] 데코레이터 패턴과 프록시 패턴](./Computer%20Science/Design%20Pattern/데코레이터%20패턴과%20프록시%20패턴의%20차이.md)
+
+<br>
+
 ## To Become Contributors
-`🌱Planters` 는 모든 지식공유자의 기여를 기다리고 있습니다.    
+>`🌱Planters` 는 모든 지식공유자의 기여를 기다리고 있습니다.    
 저희와 함께 잔디도 심고 지식을 `🌱Plant` 하세요!
     
 `Contributor 등록 방법` : [Planters Discussion 참고](https://github.com/Bisi3asi/Planters/discussions/2)    
