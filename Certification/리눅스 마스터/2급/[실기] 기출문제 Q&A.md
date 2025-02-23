@@ -113,3 +113,38 @@ rpm -e nmap --nodeps
 </details>
 
 <br>
+
+**Q. yum으로 확장 패키지 관련 저장소를 설치하는 명령어는?**
+<details>
+<summary>A.</summary>
+yum install epel-release
+<br>
+
+* epel-release : Extra Packages for Enterprise Linux - Release 의 약자이다.
+  * epel-release를 설치하면 yum 과 같은 도구를 사용해 EPEL 저장소에서 패키지와 의존성 패키지를 설치할 수 있다.
+* 존재하지 않는 패키지 이름
+  * epel, epel-repository, epel-download
+</details>
+
+<br>
+
+**Q. abc.tar.bz2 소스 파일의 내용만을 확인하는 tar 명령어는? **
+<details>
+<summary>A.</summary>
+tar.jxvf abc.tar.bz2
+<br>
+
+* tar 명령어에서 압축 파일을 다룰 떄 사용하는 명령어
+  * .xz = **J**xvf
+  * .bz2 = **j**xvf
+  * .gz = **z**xvf
+  * compress = **Z**xvf
+* 함께 사용하는 공통 옵션
+  * c : 압축파일 생성 (**c**reate)
+  * x : 압축파일 해제 (e**x**tract)
+  * t : 아카이브 내 파일 목록 보기 (lis**t**)
+  * v : 자세한 정보 출력 (**v**erbose)
+  * f : 파일 이름 및 디렉토리 지정 (**f**ile)
+</details>
+
+<br>
