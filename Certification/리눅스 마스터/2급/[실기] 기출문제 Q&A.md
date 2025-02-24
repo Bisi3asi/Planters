@@ -128,7 +128,7 @@ yum install epel-release
 
 <br>
 
-**Q. abc.tar.bz2 소스 파일의 내용만을 확인하는 tar 명령어는? **
+**Q. abc.tar.bz2 소스 파일의 내용만을 확인하는 tar 명령어는?**
 <details>
 <summary>A.</summary>
 tar.jxvf abc.tar.bz2
@@ -148,3 +148,155 @@ tar.jxvf abc.tar.bz2
 </details>
 
 <br>
+
+**Q. 소스 파일의 압축을 푼 디렉터리에서 한 번 작업한 설정이나 파일을 삭제하고 작업을 진행할 때 사용하는 명령어는?**
+<details>
+<summary>A.</summary>
+make clean
+<br>
+
+생성되는 중간 파일 (컴파일된 파일, 빌드 환경)을 삭제하고 이전 빌드의 영향을 없애기 위해 사용한다. 
+</details>
+
+<br>
+
+**Q. 프로그램을 소스 파일로 설치하는 과정의 명령어는?**
+<details>
+<summary>A.</summary>
+configure -> make -> make install
+<br>
+
+* configure : 소스 코드를 컴파일하기 전에 시스템 환경을 검사하고, makefile을 생성
+* make : makefile에 기록된 지시에 따라 소스 코드를 컴파일, 실행 파일을 생성
+* make install : 컴파일된 프로그램을 시스템의 적절한 위치에 설치
+</details>
+
+<br>
+
+**Q. 다음 중 리눅스에서 사용되는 온라인 패키지 관리 도구로 거리가 먼 것은?**
+> 1. dnf
+> 2. rpm
+> 3. zypper
+> 4. apt-get
+<details>
+<summary>A.</summary>
+rpm은 redhat package manager로, 오프라인 패키지 관리 또한 수행한다.
+
+<br>
+
+* dnf : 페도라 및 레드햇 계열 온라인 패키지 도구
+* zypper : 오픈수세(OpenSUSE) 에서 사용하는 온라인 패키지 도구
+* apt-get : Debian 및 Ubuntu 계열에서 사용하는 온라인 패키지 도구
+</details>
+
+<br>
+
+**Q. 다음 중 레드햇 계열 리눅스에서 사용되는 온라인 패키지 관리 도구로 거리가 먼 것은?**
+> 1. dnf
+> 2. rpm
+> 3. zypper
+> 4. apt-get
+<details>
+<summary>A.</summary>
+zypper는 오픈수세(OpenSUSE) 에서 사용하는 온라인 패키지 도구이다.
+
+<br>
+
+페도라, 데비안, 우분투는 레드햇 계열이다.
+</details>
+
+<br>
+
+**Q. vi 편집기의 ex 명령모드에 대한 설명으로 틀린 것은?**
+> 1. w : 작업중인 내용을 저장한다.
+> 2. w 파일명 : 지정한 파일명으로 저장한다.
+> 3. wq : 변경된 내용을 저장하고 종료한다.
+> 4. q : 수정된 사항이 있어도 무조건 종료한다.
+<details>
+<summary>A.</summary>
+q는 수정된 내용이 있으면 종료되지 않고 오류 메시지를 출력한다.
+<br>
+
+강제 종료하려면 q!를 사용해야 한다.
+</details>
+
+<br>
+
+**Q. 다음 괄호 안에 들어갈 내용으로 알맞은 것은?**
+> vi 편집기의 명령 모드 상태에서 특정 문자열을 아래 방향으로 검색하기 위해서는 (a) 기호를 선언한 뒤, 
+> 찾으려는 문자열 패턴을 덧붙여서 기재한다. 만약 다음 문자열을 찾으려면 (b) 키를 이용한다.
+<details>
+<summary>A.</summary>
+a : /, b : n 
+<br>
+
+* /(검색어) : 커서 위치부터 순방향(아래)로 문자열 검색
+* n : 검색어를 찾은 다음 위치로 이동
+* N : 검색어를 찾은 이전 위치로 이동
+* ?(문자열) : 커서 위치부터 순방향(위)로 문자열 검색
+</details>
+<br>
+
+**Q. vi 편집기에서 linux로 끝나는 줄의 마지막에 마침표(.)를 덧붙이도록 치환하는 명령어는?**
+> vi 편집기의 명령 모드 상태에서 특정 문자열을 아래 방향으로 검색하기 위해서는 (a) 기호를 선언한 뒤,
+> 찾으려는 문자열 패턴을 덧붙여서 기재한다. 만약 다음 문자열을 찾으려면 (b) 키를 이용한다.
+<details>
+<summary>A.</summary>
+:% s/linux$/linux./
+<br>
+
+* % : 전체 파일의 범위를 나타내는 기호, 파일 전체에서 찾고자 하는 패턴을 검색한다.
+* s : substitue : 치환을 나타내는 명령어
+* linux$ : $는 줄의 끝을 의미하므로 linux로 끝나는 부분을 찾는다.
+* linux. : linux로 끝나는 부분에 마침표를 추가한다.
+</details>
+
+<br>
+
+**Q. 다음 중 emacs 편집기를 개발한 인물로 알맞은 것은?**
+> 1. 빌 조이
+> 2. 리처드 스톨만
+> 3. 브람 브레나르
+> 4. 귀도 반 로섬
+<details>
+<summary>A.</summary>
+리처드 스톨만
+<br>
+
+* 빌 조이 : vi 개발
+* 리처드 스톨만 : emacs 개발
+* 브람 브레나르 : vim 개발
+* 귀도 반 로섬 : python IDLE 개발
+</details>
+
+<br>
+
+**Q. nano 편집기에서 현재 커서가 위치한 줄의 처음으로 이동할 때 사용하는 키 조합은?**
+<details>
+<summary>A.</summary>
+Ctrl + a
+<br>
+
+* Ctrl + e : 현재 행의 끝 부분으로 커서를 이동
+* Ctrl + o : 파일을 저장하기 위해 사용
+* Ctrl + i : 탭을 삽입
+</details>
+
+<br>
+
+**Q. 다음 중 X 윈도우 환경에서만 사용 가능한 편집기는?**
+> 1. nano
+> 2. pico
+> 3. kwrite
+> 4. vim
+<details>
+<summary>A.</summary>
+kwrite은 X윈도우 환경에서만 사용 가능한 GUI 편집기이다.
+
+<br>
+
+* nano : CLI 기반 편집기
+* pico : nano의 원조인 터미널 기반 편집기
+* vim : CLI에서 동작하지만, GUI 버전인 gvim 또한 존재한다.
+</details>
+
