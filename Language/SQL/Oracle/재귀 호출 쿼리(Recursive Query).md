@@ -27,10 +27,15 @@
 3. **UNION ALL**
     - Anchor와 Recursive 결과를 합쳐 전체 계층 데이터를 완성한다.
 
-실행 순서는 다음과 같다:
+<br>
+
+실행 순서는 다음과 같다.
+
 `Anchor → Recursive(1차) → Recursive(2차) → ... → Recursive(n차)`
 
 Oracle은 이 반복 과정을 내부적으로 수행하며, 결과를 하나의 계층 구조로 반환한다.
+
+<br>
 
 ---
 
@@ -56,7 +61,9 @@ INSERT INTO employee VALUES (7, 'Staff A2-1', 5);
 COMMIT;
 ```
 
-#### 2) 조직도 트리 구조 조회
+<br>
+
+#### 2) 조직도 트리 구조 조회 (최상위 → 최하위)
 ```oracle
 WITH RECURSIVE org_tree (emp_id, emp_name, manager_id, level_no) AS (
     -- Anchor: 최상위 관리자
@@ -76,6 +83,8 @@ FROM org_tree
 ORDER BY level_no, emp_id;
 ```
 
+<br>
+
 **실행 결과**
 
 | HIERARCHY       | LEVEL_NO |
@@ -88,7 +97,9 @@ ORDER BY level_no, emp_id;
 |     Director B  | 2 |
 |         Manager B1 | 3 |
 
-#### 3) 특정 직원 상위 계층 조회
+<br>
+
+#### 3) 특정 직원 기준 계층 조회 (기준 → 최상위)
 ```oracle
 WITH RECURSIVE upper_chain (emp_id, emp_name, manager_id) AS (
     SELECT emp_id, emp_name, manager_id
@@ -104,6 +115,8 @@ WITH RECURSIVE upper_chain (emp_id, emp_name, manager_id) AS (
 SELECT * FROM upper_chain;
 ```
 
+<br>
+
 **실행 결과**
 
 | EMP_ID | EMP_NAME   | MANAGER_ID |
@@ -112,6 +125,11 @@ SELECT * FROM upper_chain;
 | 5       | Manager A2 | 2 |
 | 2       | Director A | 1 |
 | 1       | CEO        | NULL |
+
+
+<br>
+
+---
 
 ### 4. 재귀형 쿼리(Recursive Query)의 용도 <a id="4"></a>
 재귀형 쿼리는 단순한 데이터 조회를 넘어 다양한 계층 구조 상황에서 활용된다.
@@ -126,6 +144,10 @@ SELECT * FROM upper_chain;
 
 재귀형 쿼리를 활용하면, 별도의 프로그래밍 반복문 없이 SQL만으로 계층 탐색을 구현할 수 있다.
 
-**Source:**
+<br>
+
+---
+
+### 5. Source
 - [Oracle 공식 문서: Hierarchical Queries with CONNECT BY](https://docs.oracle.com/en/database/oracle/oracle-database/21/sqlrf/Hierarchical-Queries.html)
 - [Oracle Database SQL Language Reference - Recursive Subquery Factoring (WITH RECURSIVE)](https://docs.oracle.com/en/database/oracle/oracle-database/21/sqlrf/SELECT.html#GUID-6F86E3C2-8E03-4C59-BE5A-1B40D1D78B7D)
